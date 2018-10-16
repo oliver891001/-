@@ -1,0 +1,10 @@
+2018-10-16 14:21:28 Start task: 测试资产可连接性
+
+Get matched hosts: [192.168.1.43]
+
+PLAY [测试资产可连接性] 
+
+TASK [ping] 
+ok: [192.168.1.43]
+
+2018-10-16 14:21:29 Task finished

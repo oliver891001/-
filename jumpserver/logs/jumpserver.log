@@ -1,0 +1,108 @@
+2018-10-16 14:03:57 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:03:57 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:03:59 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:03:59 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:08 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:08 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:33 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:33 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:36 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:36 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:38 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:38 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:38 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:38 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:38 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:38 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:38 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:38 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:39 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:39 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:39 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:39 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:41 [signal_handler DEBUG] App ready signal recv
+2018-10-16 14:04:41 [signal_handler DEBUG] Start need start task: [assets.tasks.update_assets_hardware_info_period, assets.tasks.test_admin_user_connectability_period, assets.tasks.test_system_user_connectability_period, terminal.tasks.delete_terminal_status_period, terminal.tasks.clean_orphan_session]
+2018-10-16 14:04:41 [tasks DEBUG] Period task disabled, update assets hardware info pass
+2018-10-16 14:04:41 [tasks DEBUG] Period task disabled, test admin user connectability pass
+2018-10-16 14:04:41 [tasks DEBUG] Period task disabled, test system user connectability pass
+2018-10-16 14:04:46 [signal_handler DEBUG] App shutdown signal recv
+2018-10-16 14:04:46 [signal_handler DEBUG] Clean need cleaned period tasks: [assets.tasks.update_assets_hardware_info_period, assets.tasks.test_admin_user_connectability_period, assets.tasks.test_system_user_connectability_period, terminal.tasks.delete_terminal_status_period, terminal.tasks.clean_orphan_session]
+2018-10-16 14:04:53 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:53 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:55 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:55 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:57 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:57 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:57 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:57 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:57 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:57 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:57 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:57 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:57 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:57 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:57 [signals_handler DEBUG] Receive django ready signal
+2018-10-16 14:04:57 [signals_handler DEBUG]   - fresh all settings
+2018-10-16 14:04:59 [signal_handler DEBUG] App ready signal recv
+2018-10-16 14:04:59 [signal_handler DEBUG] Start need start task: [assets.tasks.update_assets_hardware_info_period, assets.tasks.test_admin_user_connectability_period, assets.tasks.test_system_user_connectability_period, terminal.tasks.delete_terminal_status_period, terminal.tasks.clean_orphan_session]
+2018-10-16 14:05:00 [tasks DEBUG] Period task disabled, test admin user connectability pass
+2018-10-16 14:05:00 [tasks DEBUG] Period task disabled, update assets hardware info pass
+2018-10-16 14:05:00 [tasks DEBUG] Period task disabled, test system user connectability pass
+2018-10-16 14:07:37 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:07:40 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:07:43 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:07:47 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:07:50 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:07:53 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:07:56 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:07:59 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:08:02 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:08:05 [log WARNING] Bad Request: /api/terminal/v1/terminal/db4d0f31-8268-4cc1-9ea2-e34cf8b39604/access-key/
+2018-10-16 14:08:32 [log WARNING] Conflict: /api/terminal/v1/terminal/
+2018-10-16 14:09:17 [log WARNING] Conflict: /api/terminal/v1/terminal/
+2018-10-16 14:09:41 [log WARNING] Bad Request: /api/terminal/v1/terminal/0139710c-bc82-423a-8ae5-53fc1a963bc8/access-key/
+2018-10-16 14:09:44 [log WARNING] Bad Request: /api/terminal/v1/terminal/0139710c-bc82-423a-8ae5-53fc1a963bc8/access-key/
+2018-10-16 14:09:47 [log WARNING] Bad Request: /api/terminal/v1/terminal/0139710c-bc82-423a-8ae5-53fc1a963bc8/access-key/
+2018-10-16 14:13:57 [signals_handler DEBUG] Receive user `蔡蔚` create signal
+2018-10-16 14:13:57 [signals_handler INFO]    - Sending welcome mail ...
+2018-10-16 14:13:57 [tasks ERROR] Sending mail error: please run connect() first
+2018-10-16 14:15:49 [signals_handler INFO] System user `内网ops用户(ops)` update signal received
+2018-10-16 14:15:50 [tasks INFO] push system user `内网ops用户` passed, may be not auto push or ssh protocol is not ssh
+2018-10-16 14:15:50 [tasks INFO] Not tasks, passed
+2018-10-16 14:16:17 [log WARNING] Bad Request: /api/assets/v1/nodes/c6f53545-f46d-41c9-bd6b-b925717c4e8d/
+2018-10-16 14:17:51 [signals_handler INFO] Asset `192.168.1.43(192.168.1.43)` create signal received
+2018-10-16 14:17:51 [signals_handler DEBUG] Update asset `192.168.1.43(192.168.1.43)` hardware info
+2018-10-16 14:17:51 [signals_handler DEBUG] Test asset `192.168.1.43(192.168.1.43)` connectability
+2018-10-16 14:17:51 [signals_handler DEBUG] Asset node change signal received
+2018-10-16 14:18:36 [signals_handler DEBUG] Asset permission assets change signal received
+2018-10-16 14:18:36 [signals_handler DEBUG] Asset permission nodes change signal received
+2018-10-16 14:18:36 [signals_handler DEBUG] Asset permission system_users change signal received
+2018-10-16 14:18:37 [tasks INFO] push system user `内网ops用户` passed, may be not auto push or ssh protocol is not ssh
+2018-10-16 14:18:37 [tasks INFO] Not tasks, passed
+2018-10-16 14:18:37 [tasks INFO] push system user `内网ops用户` passed, may be not auto push or ssh protocol is not ssh
+2018-10-16 14:18:37 [tasks INFO] Not tasks, passed
+2018-10-16 14:18:44 [log WARNING] Unauthorized: /api/users/v1/auth/
+2018-10-16 14:21:28 [log WARNING] Not Found: /favicon.ico
+2018-10-16 14:23:21 [signals_handler INFO] Asset `192.168.1.45(192.168.1.45)` create signal received
+2018-10-16 14:23:21 [signals_handler DEBUG] Update asset `192.168.1.45(192.168.1.45)` hardware info
+2018-10-16 14:23:21 [signals_handler DEBUG] Test asset `192.168.1.45(192.168.1.45)` connectability
+2018-10-16 14:23:21 [signals_handler DEBUG] Asset node change signal received
+2018-10-16 14:23:21 [tasks INFO] push system user `内网ops用户` passed, may be not auto push or ssh protocol is not ssh
+2018-10-16 14:23:21 [tasks INFO] Not tasks, passed
+2018-10-16 14:28:40 [signals_handler INFO] Asset `154server(47.93.91.154)` create signal received
+2018-10-16 14:28:40 [signals_handler DEBUG] Update asset `154server(47.93.91.154)` hardware info
+2018-10-16 14:28:40 [signals_handler DEBUG] Test asset `154server(47.93.91.154)` connectability
+2018-10-16 14:28:40 [signals_handler DEBUG] Asset node change signal received
+2018-10-16 14:29:56 [signals_handler INFO] System user `154server(qa)` update signal received
+2018-10-16 14:29:56 [tasks INFO] push system user `154server` passed, may be not auto push or ssh protocol is not ssh
+2018-10-16 14:29:56 [tasks INFO] Not tasks, passed
+2018-10-16 14:30:25 [signals_handler DEBUG] Asset permission nodes change signal received
+2018-10-16 14:30:25 [signals_handler DEBUG] Asset permission system_users change signal received
+2018-10-16 14:30:25 [tasks INFO] push system user `154server` passed, may be not auto push or ssh protocol is not ssh
+2018-10-16 14:30:25 [tasks INFO] Not tasks, passed
+2018-10-16 14:39:15 [signals_handler DEBUG] Receive user `李娜` create signal
+2018-10-16 14:39:15 [signals_handler INFO]    - Sending welcome mail ...
+2018-10-16 14:39:15 [tasks ERROR] Sending mail error: please run connect() first
+2018-10-16 14:40:22 [signals_handler DEBUG] Receive user `王娜` create signal
+2018-10-16 14:40:22 [signals_handler INFO]    - Sending welcome mail ...
+2018-10-16 14:40:22 [tasks ERROR] Sending mail error: please run connect() first

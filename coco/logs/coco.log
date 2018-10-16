@@ -1,0 +1,493 @@
+2018-10-16 14:10:00 [app DEBUG] Loading config from server: {"COMMAND_STORAGE": {"TYPE": "server"}, "REPLAY_STORAGE": {"TYPE": "server"}, "SECURITY_MAX_IDLE_TIME": 30}
+2018-10-16 14:10:05 [app INFO] Grace shutdown the server
+2018-10-16 14:10:11 [app DEBUG] Loading config from server: {"COMMAND_STORAGE": {"TYPE": "server"}, "REPLAY_STORAGE": {"TYPE": "server"}, "SECURITY_MAX_IDLE_TIME": 30}
+2018-10-16 14:18:43 [transport DEBUG] starting thread (server mode): 0xe9d2f160
+2018-10-16 14:18:43 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:18:43 [transport DEBUG] Remote version/idstring: SSH-2.0-nsssh2_5.0.0031 NetSarang Computer, Inc.
+2018-10-16 14:18:43 [transport INFO] Connected (version 2.0, client nsssh2_5.0.0031)
+2018-10-16 14:18:43 [transport DEBUG] kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:18:43 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:18:43 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:18:43 [transport DEBUG] Cipher agreed: aes128-cbc
+2018-10-16 14:18:43 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:18:43 [transport DEBUG] Compression agreed: none
+2018-10-16 14:18:43 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:18:44 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:18:44 [transport DEBUG] Auth request (type=none) service=ssh-connection, username=caiwei
+2018-10-16 14:18:44 [transport INFO] Auth rejected (none).
+2018-10-16 14:18:44 [transport DEBUG] Auth request (type=password) service=ssh-connection, username=caiwei
+2018-10-16 14:18:44 [interface WARNING] Password and public key auth <caiwei> failed, reject it
+2018-10-16 14:18:44 [transport INFO] Auth rejected (password).
+2018-10-16 14:18:55 [transport INFO] Disconnect (code 0): 
+2018-10-16 14:19:54 [transport DEBUG] starting thread (server mode): 0xe9415588
+2018-10-16 14:19:54 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:19:54 [transport DEBUG] Remote version/idstring: SSH-2.0-nsssh2_5.0.0031 NetSarang Computer, Inc.
+2018-10-16 14:19:54 [transport INFO] Connected (version 2.0, client nsssh2_5.0.0031)
+2018-10-16 14:19:54 [transport DEBUG] kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:19:54 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:19:54 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:19:54 [transport DEBUG] Cipher agreed: aes128-cbc
+2018-10-16 14:19:54 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:19:54 [transport DEBUG] Compression agreed: none
+2018-10-16 14:19:54 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:19:54 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:19:54 [transport DEBUG] Auth request (type=none) service=ssh-connection, username=caiwei
+2018-10-16 14:19:54 [transport INFO] Auth rejected (none).
+2018-10-16 14:19:54 [transport DEBUG] Auth request (type=password) service=ssh-connection, username=caiwei
+2018-10-16 14:19:54 [interface INFO] Password auth <caiwei> success
+2018-10-16 14:19:54 [transport INFO] Auth granted (password).
+2018-10-16 14:19:54 [interface INFO] Check channel request: session 0
+2018-10-16 14:19:54 [models INFO] New client <蔡蔚 from 192.168.1.18:60657> join, total 1 now
+2018-10-16 14:19:54 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:19:54 [channel DEBUG] [chan 0] Max packet out: 16384 bytes
+2018-10-16 14:19:54 [transport DEBUG] Secsh channel 0 (session) opened.
+2018-10-16 14:19:54 [interface INFO] Check channel pty request: b'xterm' 189 42 0 0
+2018-10-16 14:19:54 [interface INFO] Check channel shell request: 0
+2018-10-16 14:19:54 [sshd INFO] Request type `session:pty`, dispatch to interactive mode
+2018-10-16 14:19:54 [interactive DEBUG] Get user 蔡蔚 assets total: 0
+2018-10-16 14:20:48 [interactive DEBUG] Interactive server server close: <coco.interactive.InteractiveServer object at 0x7f4ee943e7b8>
+2018-10-16 14:20:48 [models INFO] Client <蔡蔚 from 192.168.1.18:60657> close
+2018-10-16 14:20:48 [channel DEBUG] [chan 0] EOF sent (0)
+2018-10-16 14:20:48 [models INFO] Client <蔡蔚 from 192.168.1.18:60657> leave, total 0 now
+2018-10-16 14:20:48 [channel DEBUG] [chan 0] EOF received (0)
+2018-10-16 14:20:48 [transport INFO] Disconnect (code 0): 
+2018-10-16 14:20:50 [transport DEBUG] starting thread (server mode): 0xe942ef98
+2018-10-16 14:20:50 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:20:50 [transport DEBUG] Remote version/idstring: SSH-2.0-nsssh2_5.0.0031 NetSarang Computer, Inc.
+2018-10-16 14:20:50 [transport INFO] Connected (version 2.0, client nsssh2_5.0.0031)
+2018-10-16 14:20:50 [transport DEBUG] kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:20:50 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:20:50 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:20:50 [transport DEBUG] Cipher agreed: aes128-cbc
+2018-10-16 14:20:50 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:20:50 [transport DEBUG] Compression agreed: none
+2018-10-16 14:20:50 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:20:50 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:20:50 [transport DEBUG] Auth request (type=none) service=ssh-connection, username=caiwei
+2018-10-16 14:20:50 [transport INFO] Auth rejected (none).
+2018-10-16 14:20:50 [transport DEBUG] Auth request (type=password) service=ssh-connection, username=caiwei
+2018-10-16 14:20:50 [interface INFO] Password auth <caiwei> success
+2018-10-16 14:20:50 [transport INFO] Auth granted (password).
+2018-10-16 14:20:50 [interface INFO] Check channel request: session 0
+2018-10-16 14:20:50 [models INFO] New client <蔡蔚 from 192.168.1.18:60751> join, total 1 now
+2018-10-16 14:20:50 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:20:50 [channel DEBUG] [chan 0] Max packet out: 16384 bytes
+2018-10-16 14:20:50 [transport DEBUG] Secsh channel 0 (session) opened.
+2018-10-16 14:20:50 [interface INFO] Check channel pty request: b'xterm' 189 42 0 0
+2018-10-16 14:20:50 [interface INFO] Check channel shell request: 0
+2018-10-16 14:20:50 [sshd INFO] Request type `session:pty`, dispatch to interactive mode
+2018-10-16 14:20:50 [interactive DEBUG] Get user 蔡蔚 assets total: 0
+2018-10-16 14:22:45 [interactive DEBUG] Interactive server server close: <coco.interactive.InteractiveServer object at 0x7f4ee93d7c88>
+2018-10-16 14:22:45 [models INFO] Client <蔡蔚 from 192.168.1.18:60751> close
+2018-10-16 14:22:45 [channel DEBUG] [chan 0] EOF sent (0)
+2018-10-16 14:22:45 [models INFO] Client <蔡蔚 from 192.168.1.18:60751> leave, total 0 now
+2018-10-16 14:22:45 [channel DEBUG] [chan 0] EOF received (0)
+2018-10-16 14:22:45 [transport INFO] Disconnect (code 0): 
+2018-10-16 14:22:46 [transport DEBUG] starting thread (server mode): 0xe9415978
+2018-10-16 14:22:46 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:22:46 [transport DEBUG] Remote version/idstring: SSH-2.0-nsssh2_5.0.0031 NetSarang Computer, Inc.
+2018-10-16 14:22:46 [transport INFO] Connected (version 2.0, client nsssh2_5.0.0031)
+2018-10-16 14:22:46 [transport DEBUG] kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:22:46 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:22:46 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:22:46 [transport DEBUG] Cipher agreed: aes128-cbc
+2018-10-16 14:22:46 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:22:46 [transport DEBUG] Compression agreed: none
+2018-10-16 14:22:46 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:22:46 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:22:46 [transport DEBUG] Auth request (type=none) service=ssh-connection, username=caiwei
+2018-10-16 14:22:46 [transport INFO] Auth rejected (none).
+2018-10-16 14:22:46 [transport DEBUG] Auth request (type=password) service=ssh-connection, username=caiwei
+2018-10-16 14:22:46 [interface INFO] Password auth <caiwei> success
+2018-10-16 14:22:46 [transport INFO] Auth granted (password).
+2018-10-16 14:22:46 [interface INFO] Check channel request: session 0
+2018-10-16 14:22:46 [models INFO] New client <蔡蔚 from 192.168.1.18:60941> join, total 1 now
+2018-10-16 14:22:46 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:22:46 [channel DEBUG] [chan 0] Max packet out: 16384 bytes
+2018-10-16 14:22:46 [transport DEBUG] Secsh channel 0 (session) opened.
+2018-10-16 14:22:46 [interface INFO] Check channel pty request: b'xterm' 189 42 0 0
+2018-10-16 14:22:46 [interface INFO] Check channel shell request: 0
+2018-10-16 14:22:46 [sshd INFO] Request type `session:pty`, dispatch to interactive mode
+2018-10-16 14:22:46 [interactive DEBUG] Get user 蔡蔚 assets total: 1
+2018-10-16 14:22:49 [assets DEBUG] Get system user ops password: 1qaz*** key: None***
+2018-10-16 14:22:49 [proxy INFO] Connect to 192.168.1.43
+2018-10-16 14:22:49 [transport DEBUG] starting thread (client mode): 0xe943e860
+2018-10-16 14:22:49 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:22:49 [transport DEBUG] Remote version/idstring: SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
+2018-10-16 14:22:49 [transport INFO] Connected (version 2.0, client OpenSSH_6.7p1)
+2018-10-16 14:22:49 [transport DEBUG] kex algos:['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:22:49 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:22:49 [transport DEBUG] HostKey agreed: ssh-ed25519
+2018-10-16 14:22:49 [transport DEBUG] Cipher agreed: aes128-ctr
+2018-10-16 14:22:49 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:22:49 [transport DEBUG] Compression agreed: zlib@openssh.com
+2018-10-16 14:22:49 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:22:49 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:22:49 [transport DEBUG] Adding ssh-ed25519 host key for 192.168.1.43: b'6350b3d071819f5a985a516f86362f1f'
+2018-10-16 14:22:49 [transport DEBUG] userauth is OK
+2018-10-16 14:22:49 [transport INFO] Authentication (password) successful!
+2018-10-16 14:22:49 [transport DEBUG] Switching on outbound compression ...
+2018-10-16 14:22:49 [transport DEBUG] Switching on inbound compression ...
+2018-10-16 14:22:49 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:22:49 [channel DEBUG] [chan 0] Max packet out: 32768 bytes
+2018-10-16 14:22:49 [transport DEBUG] Secsh channel 0 opened.
+2018-10-16 14:22:49 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:22:49 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:22:49 [session INFO] Start bridge session: 060b666c-def1-41c6-b008-0bbfb55605f9
+2018-10-16 14:22:51 [channel DEBUG] [chan 0] EOF received (0)
+2018-10-16 14:22:51 [channel DEBUG] [chan 0] EOF sent (0)
+2018-10-16 14:22:51 [session INFO] Server close the connection
+2018-10-16 14:22:51 [session INFO] Session stop event set: 060b666c-def1-41c6-b008-0bbfb55605f9
+2018-10-16 14:22:51 [session INFO] Close the session: 060b666c-def1-41c6-b008-0bbfb55605f9 
+2018-10-16 14:22:51 [recorder INFO] Success push replay file: 060b666c-def1-41c6-b008-0bbfb55605f9
+2018-10-16 14:22:51 [recorder INFO] Success finish session 060b666c-def1-41c6-b008-0bbfb55605f9's replay 
+2018-10-16 14:22:51 [models INFO] Closed server <To: 192.168.1.43>
+2018-10-16 14:22:51 [transport DEBUG] EOF in transport thread
+2018-10-16 14:23:49 [interactive DEBUG] Interactive server server close: <coco.interactive.InteractiveServer object at 0x7f4eef22ad68>
+2018-10-16 14:23:49 [models INFO] Client <蔡蔚 from 192.168.1.18:60941> close
+2018-10-16 14:23:49 [channel DEBUG] [chan 0] EOF sent (0)
+2018-10-16 14:23:49 [models INFO] Client <蔡蔚 from 192.168.1.18:60941> leave, total 0 now
+2018-10-16 14:23:49 [channel DEBUG] [chan 0] EOF received (0)
+2018-10-16 14:23:49 [transport INFO] Disconnect (code 0): 
+2018-10-16 14:23:50 [transport DEBUG] starting thread (server mode): 0xe93f1908
+2018-10-16 14:23:50 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:23:50 [transport DEBUG] Remote version/idstring: SSH-2.0-nsssh2_5.0.0031 NetSarang Computer, Inc.
+2018-10-16 14:23:50 [transport INFO] Connected (version 2.0, client nsssh2_5.0.0031)
+2018-10-16 14:23:50 [transport DEBUG] kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:23:50 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:23:50 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:23:50 [transport DEBUG] Cipher agreed: aes128-cbc
+2018-10-16 14:23:50 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:23:50 [transport DEBUG] Compression agreed: none
+2018-10-16 14:23:50 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:23:50 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:23:50 [transport DEBUG] Auth request (type=none) service=ssh-connection, username=caiwei
+2018-10-16 14:23:50 [transport INFO] Auth rejected (none).
+2018-10-16 14:23:50 [transport DEBUG] Auth request (type=password) service=ssh-connection, username=caiwei
+2018-10-16 14:23:51 [interface INFO] Password auth <caiwei> success
+2018-10-16 14:23:51 [transport INFO] Auth granted (password).
+2018-10-16 14:23:51 [interface INFO] Check channel request: session 0
+2018-10-16 14:23:51 [models INFO] New client <蔡蔚 from 192.168.1.18:61060> join, total 1 now
+2018-10-16 14:23:51 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:23:51 [channel DEBUG] [chan 0] Max packet out: 16384 bytes
+2018-10-16 14:23:51 [transport DEBUG] Secsh channel 0 (session) opened.
+2018-10-16 14:23:51 [interface INFO] Check channel pty request: b'xterm' 189 42 0 0
+2018-10-16 14:23:51 [interface INFO] Check channel shell request: 0
+2018-10-16 14:23:51 [sshd INFO] Request type `session:pty`, dispatch to interactive mode
+2018-10-16 14:23:51 [interactive DEBUG] Get user 蔡蔚 assets total: 2
+2018-10-16 14:23:54 [assets DEBUG] Get system user ops password: 1qaz*** key: None***
+2018-10-16 14:23:54 [proxy INFO] Connect to 192.168.1.45
+2018-10-16 14:23:54 [transport DEBUG] starting thread (client mode): 0xe93f1d30
+2018-10-16 14:23:54 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:23:54 [transport DEBUG] Remote version/idstring: SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
+2018-10-16 14:23:54 [transport INFO] Connected (version 2.0, client OpenSSH_6.7p1)
+2018-10-16 14:23:54 [transport DEBUG] kex algos:['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:23:54 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:23:54 [transport DEBUG] HostKey agreed: ssh-ed25519
+2018-10-16 14:23:54 [transport DEBUG] Cipher agreed: aes128-ctr
+2018-10-16 14:23:54 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:23:54 [transport DEBUG] Compression agreed: zlib@openssh.com
+2018-10-16 14:23:54 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:23:54 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:23:54 [transport DEBUG] Adding ssh-ed25519 host key for 192.168.1.45: b'87af9d37f8f515b885e44195963e48dd'
+2018-10-16 14:23:54 [transport DEBUG] userauth is OK
+2018-10-16 14:23:54 [transport INFO] Authentication (password) successful!
+2018-10-16 14:23:54 [transport DEBUG] Switching on outbound compression ...
+2018-10-16 14:23:54 [transport DEBUG] Switching on inbound compression ...
+2018-10-16 14:23:54 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:23:54 [channel DEBUG] [chan 0] Max packet out: 32768 bytes
+2018-10-16 14:23:54 [transport DEBUG] Secsh channel 0 opened.
+2018-10-16 14:23:54 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:23:54 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:23:54 [session INFO] Start bridge session: 0f2780d5-0970-4bea-90d5-ad1ee9e54c79
+2018-10-16 14:24:07 [recorder DEBUG] Send 1 commands to server
+2018-10-16 14:24:56 [transport DEBUG] starting thread (server mode): 0xe93fd7f0
+2018-10-16 14:24:56 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:24:56 [transport DEBUG] Remote version/idstring: SSH-2.0-nsssh2_5.0.0031 NetSarang Computer, Inc.
+2018-10-16 14:24:56 [transport INFO] Connected (version 2.0, client nsssh2_5.0.0031)
+2018-10-16 14:24:56 [transport DEBUG] kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:24:56 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:24:56 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:24:56 [transport DEBUG] Cipher agreed: aes128-cbc
+2018-10-16 14:24:56 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:24:56 [transport DEBUG] Compression agreed: none
+2018-10-16 14:24:56 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:26:36 [transport DEBUG] starting thread (server mode): 0xe943e128
+2018-10-16 14:26:36 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:26:36 [transport DEBUG] Remote version/idstring: SSH-2.0-PuTTY_Release_0.67
+2018-10-16 14:26:36 [transport INFO] Connected (version 2.0, client PuTTY_Release_0.67)
+2018-10-16 14:26:36 [transport DEBUG] kex algos:['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'rsa2048-sha256', 'rsa1024-sha1'] server key:['ssh-rsa', 'ssh-dss'] client encrypt:['aes256-ctr', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes192-ctr', 'aes192-cbc', 'aes128-ctr', 'aes128-cbc', 'blowfish-ctr', 'blowfish-cbc', '3des-ctr', '3des-cbc', 'arcfour256', 'arcfour128'] server encrypt:['aes256-ctr', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes192-ctr', 'aes192-cbc', 'aes128-ctr', 'aes128-cbc', 'blowfish-ctr', 'blowfish-cbc', '3des-ctr', '3des-cbc', 'arcfour256', 'arcfour128'] client mac:['hmac-sha2-256', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5'] server mac:['hmac-sha2-256', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:26:36 [transport DEBUG] Kex agreed: diffie-hellman-group-exchange-sha256
+2018-10-16 14:26:36 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:26:36 [transport DEBUG] Cipher agreed: aes256-ctr
+2018-10-16 14:26:36 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:26:36 [transport DEBUG] Compression agreed: none
+2018-10-16 14:26:36 [transport DEBUG] Picking p (1024 <= 4096 <= 8192 bits)
+2018-10-16 14:26:37 [transport DEBUG] kex engine KexGexSHA256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:26:38 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:26:43 [transport DEBUG] Auth request (type=none) service=ssh-connection, username=caiwei
+2018-10-16 14:26:43 [transport INFO] Auth rejected (none).
+2018-10-16 14:26:45 [transport DEBUG] Auth request (type=password) service=ssh-connection, username=caiwei
+2018-10-16 14:26:46 [interface INFO] Password auth <caiwei> success
+2018-10-16 14:26:46 [transport INFO] Auth granted (password).
+2018-10-16 14:26:46 [interface INFO] Check channel request: session 0
+2018-10-16 14:26:46 [models INFO] New client <蔡蔚 from 192.168.1.14:9830> join, total 2 now
+2018-10-16 14:26:46 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:26:46 [channel DEBUG] [chan 0] Max packet out: 16384 bytes
+2018-10-16 14:26:46 [transport DEBUG] Secsh channel 0 (session) opened.
+2018-10-16 14:26:46 [interface INFO] Check channel pty request: b'xterm' 80 24 0 0
+2018-10-16 14:26:46 [interface INFO] Check channel shell request: 0
+2018-10-16 14:26:46 [sshd INFO] Request type `session:pty`, dispatch to interactive mode
+2018-10-16 14:26:46 [interactive DEBUG] Get user 蔡蔚 assets total: 2
+2018-10-16 14:26:52 [assets DEBUG] Get system user ops password: 1qaz*** key: None***
+2018-10-16 14:26:52 [proxy INFO] Connect to 192.168.1.43
+2018-10-16 14:26:52 [transport DEBUG] starting thread (client mode): 0xe93fae48
+2018-10-16 14:26:52 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:26:52 [transport DEBUG] Remote version/idstring: SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
+2018-10-16 14:26:52 [transport INFO] Connected (version 2.0, client OpenSSH_6.7p1)
+2018-10-16 14:26:52 [transport DEBUG] kex algos:['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:26:52 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:26:52 [transport DEBUG] HostKey agreed: ssh-ed25519
+2018-10-16 14:26:52 [transport DEBUG] Cipher agreed: aes128-ctr
+2018-10-16 14:26:52 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:26:52 [transport DEBUG] Compression agreed: zlib@openssh.com
+2018-10-16 14:26:52 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:26:52 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:26:52 [transport DEBUG] Adding ssh-ed25519 host key for 192.168.1.43: b'6350b3d071819f5a985a516f86362f1f'
+2018-10-16 14:26:52 [transport DEBUG] userauth is OK
+2018-10-16 14:26:52 [transport INFO] Authentication (password) successful!
+2018-10-16 14:26:52 [transport DEBUG] Switching on outbound compression ...
+2018-10-16 14:26:52 [transport DEBUG] Switching on inbound compression ...
+2018-10-16 14:26:52 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:26:52 [channel DEBUG] [chan 0] Max packet out: 32768 bytes
+2018-10-16 14:26:52 [transport DEBUG] Secsh channel 0 opened.
+2018-10-16 14:26:52 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:26:52 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:26:53 [session INFO] Start bridge session: b507ed2d-bbf6-4105-a49b-69b675032174
+2018-10-16 14:27:35 [recorder DEBUG] Send 1 commands to server
+2018-10-16 14:29:03 [transport DEBUG] Sending global request "keepalive@lag.net"
+2018-10-16 14:30:32 [channel DEBUG] [chan 0] EOF received (0)
+2018-10-16 14:30:32 [channel DEBUG] [chan 0] EOF sent (0)
+2018-10-16 14:30:32 [session INFO] Server close the connection
+2018-10-16 14:30:32 [session INFO] Session stop event set: 0f2780d5-0970-4bea-90d5-ad1ee9e54c79
+2018-10-16 14:30:32 [session INFO] Close the session: 0f2780d5-0970-4bea-90d5-ad1ee9e54c79 
+2018-10-16 14:30:32 [recorder INFO] Success push replay file: 0f2780d5-0970-4bea-90d5-ad1ee9e54c79
+2018-10-16 14:30:32 [recorder INFO] Success finish session 0f2780d5-0970-4bea-90d5-ad1ee9e54c79's replay 
+2018-10-16 14:30:32 [models INFO] Closed server <To: 192.168.1.45>
+2018-10-16 14:30:32 [transport DEBUG] EOF in transport thread
+2018-10-16 14:30:33 [interactive DEBUG] Interactive server server close: <coco.interactive.InteractiveServer object at 0x7f4ee943d3c8>
+2018-10-16 14:30:33 [models INFO] Client <蔡蔚 from 192.168.1.18:61060> close
+2018-10-16 14:30:33 [channel DEBUG] [chan 0] EOF sent (0)
+2018-10-16 14:30:33 [models INFO] Client <蔡蔚 from 192.168.1.18:61060> leave, total 1 now
+2018-10-16 14:30:33 [channel DEBUG] [chan 0] EOF received (0)
+2018-10-16 14:30:33 [transport INFO] Disconnect (code 0): 
+2018-10-16 14:30:34 [transport DEBUG] starting thread (server mode): 0xe93c2a20
+2018-10-16 14:30:34 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:30:34 [transport DEBUG] Remote version/idstring: SSH-2.0-nsssh2_5.0.0031 NetSarang Computer, Inc.
+2018-10-16 14:30:34 [transport INFO] Connected (version 2.0, client nsssh2_5.0.0031)
+2018-10-16 14:30:34 [transport DEBUG] kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:30:34 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:30:34 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:30:34 [transport DEBUG] Cipher agreed: aes128-cbc
+2018-10-16 14:30:34 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:30:34 [transport DEBUG] Compression agreed: none
+2018-10-16 14:30:34 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:30:34 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:30:34 [transport DEBUG] Auth request (type=none) service=ssh-connection, username=caiwei
+2018-10-16 14:30:34 [transport INFO] Auth rejected (none).
+2018-10-16 14:30:34 [transport DEBUG] Auth request (type=password) service=ssh-connection, username=caiwei
+2018-10-16 14:30:34 [interface INFO] Password auth <caiwei> success
+2018-10-16 14:30:34 [transport INFO] Auth granted (password).
+2018-10-16 14:30:34 [interface INFO] Check channel request: session 0
+2018-10-16 14:30:34 [models INFO] New client <蔡蔚 from 192.168.1.18:61736> join, total 2 now
+2018-10-16 14:30:34 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:30:34 [channel DEBUG] [chan 0] Max packet out: 16384 bytes
+2018-10-16 14:30:34 [transport DEBUG] Secsh channel 0 (session) opened.
+2018-10-16 14:30:34 [interface INFO] Check channel pty request: b'xterm' 189 42 0 0
+2018-10-16 14:30:34 [interface INFO] Check channel shell request: 0
+2018-10-16 14:30:34 [sshd INFO] Request type `session:pty`, dispatch to interactive mode
+2018-10-16 14:30:34 [interactive DEBUG] Get user 蔡蔚 assets total: 3
+2018-10-16 14:30:36 [recorder DEBUG] Send 1 commands to server
+2018-10-16 14:31:01 [assets DEBUG] Get system user qa password: qa#$*** key: None***
+2018-10-16 14:31:01 [proxy INFO] Connect to 154server
+2018-10-16 14:31:01 [transport DEBUG] starting thread (client mode): 0xe93e4e48
+2018-10-16 14:31:01 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:31:01 [transport DEBUG] Remote version/idstring: SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
+2018-10-16 14:31:01 [transport INFO] Connected (version 2.0, client OpenSSH_6.7p1)
+2018-10-16 14:31:01 [transport DEBUG] kex algos:['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:31:01 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:31:01 [transport DEBUG] HostKey agreed: ssh-ed25519
+2018-10-16 14:31:01 [transport DEBUG] Cipher agreed: aes128-ctr
+2018-10-16 14:31:01 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:31:01 [transport DEBUG] Compression agreed: zlib@openssh.com
+2018-10-16 14:31:01 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:31:01 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:31:01 [transport DEBUG] Adding ssh-ed25519 host key for [47.93.91.154]:7080: b'4adc8a012f76773531b30d138d3c1240'
+2018-10-16 14:31:02 [transport DEBUG] userauth is OK
+2018-10-16 14:31:02 [transport INFO] Authentication (password) successful!
+2018-10-16 14:31:02 [transport DEBUG] Switching on outbound compression ...
+2018-10-16 14:31:02 [transport DEBUG] Switching on inbound compression ...
+2018-10-16 14:31:02 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:31:02 [channel DEBUG] [chan 0] Max packet out: 32768 bytes
+2018-10-16 14:31:02 [transport DEBUG] Secsh channel 0 opened.
+2018-10-16 14:31:02 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:31:02 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:31:02 [session INFO] Start bridge session: e71273d5-f605-411a-b504-35bb0bfce41c
+2018-10-16 14:31:06 [channel DEBUG] [chan 0] EOF received (0)
+2018-10-16 14:31:06 [channel DEBUG] [chan 0] EOF sent (0)
+2018-10-16 14:31:06 [session INFO] Server close the connection
+2018-10-16 14:31:06 [session INFO] Session stop event set: e71273d5-f605-411a-b504-35bb0bfce41c
+2018-10-16 14:31:06 [session INFO] Close the session: e71273d5-f605-411a-b504-35bb0bfce41c 
+2018-10-16 14:31:06 [recorder INFO] Success push replay file: e71273d5-f605-411a-b504-35bb0bfce41c
+2018-10-16 14:31:06 [recorder INFO] Success finish session e71273d5-f605-411a-b504-35bb0bfce41c's replay 
+2018-10-16 14:31:06 [models INFO] Closed server <To: 154server>
+2018-10-16 14:31:06 [transport DEBUG] EOF in transport thread
+2018-10-16 14:31:10 [recorder DEBUG] Send 1 commands to server
+2018-10-16 14:31:43 [assets DEBUG] Get system user ops password: 1qaz*** key: None***
+2018-10-16 14:31:43 [proxy INFO] Connect to 192.168.1.45
+2018-10-16 14:31:43 [transport DEBUG] starting thread (client mode): 0xe930cf60
+2018-10-16 14:31:43 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:31:43 [transport DEBUG] Remote version/idstring: SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
+2018-10-16 14:31:43 [transport INFO] Connected (version 2.0, client OpenSSH_6.7p1)
+2018-10-16 14:31:43 [transport DEBUG] kex algos:['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:31:43 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:31:43 [transport DEBUG] HostKey agreed: ssh-ed25519
+2018-10-16 14:31:43 [transport DEBUG] Cipher agreed: aes128-ctr
+2018-10-16 14:31:44 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:31:44 [transport DEBUG] Compression agreed: zlib@openssh.com
+2018-10-16 14:31:44 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:31:44 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:31:44 [transport DEBUG] Adding ssh-ed25519 host key for 192.168.1.45: b'87af9d37f8f515b885e44195963e48dd'
+2018-10-16 14:31:44 [transport DEBUG] userauth is OK
+2018-10-16 14:31:44 [transport INFO] Authentication (password) successful!
+2018-10-16 14:31:44 [transport DEBUG] Switching on outbound compression ...
+2018-10-16 14:31:44 [transport DEBUG] Switching on inbound compression ...
+2018-10-16 14:31:44 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:31:44 [channel DEBUG] [chan 0] Max packet out: 32768 bytes
+2018-10-16 14:31:44 [transport DEBUG] Secsh channel 0 opened.
+2018-10-16 14:31:44 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:31:44 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:31:44 [session INFO] Start bridge session: 33820670-6c3a-46cb-b938-1f1f33ecbe95
+2018-10-16 14:31:45 [channel DEBUG] [chan 0] EOF received (0)
+2018-10-16 14:31:45 [channel DEBUG] [chan 0] EOF sent (0)
+2018-10-16 14:31:45 [session INFO] Server close the connection
+2018-10-16 14:31:45 [session INFO] Session stop event set: 33820670-6c3a-46cb-b938-1f1f33ecbe95
+2018-10-16 14:31:45 [session INFO] Close the session: 33820670-6c3a-46cb-b938-1f1f33ecbe95 
+2018-10-16 14:31:45 [recorder INFO] Success push replay file: 33820670-6c3a-46cb-b938-1f1f33ecbe95
+2018-10-16 14:31:45 [recorder INFO] Success finish session 33820670-6c3a-46cb-b938-1f1f33ecbe95's replay 
+2018-10-16 14:31:45 [models INFO] Closed server <To: 192.168.1.45>
+2018-10-16 14:31:45 [transport DEBUG] EOF in transport thread
+2018-10-16 14:32:33 [transport DEBUG] Sending global request "keepalive@lag.net"
+2018-10-16 14:37:33 [transport DEBUG] Sending global request "keepalive@lag.net"
+2018-10-16 14:41:11 [transport DEBUG] EOF in transport thread
+2018-10-16 14:41:11 [interactive DEBUG] Interactive server server close: <coco.interactive.InteractiveServer object at 0x7f4ee9364390>
+2018-10-16 14:41:11 [models INFO] Client <蔡蔚 from 192.168.1.18:61736> close
+2018-10-16 14:41:11 [models INFO] Client <蔡蔚 from 192.168.1.18:61736> leave, total 1 now
+2018-10-16 14:41:30 [transport DEBUG] starting thread (server mode): 0xe92e56d8
+2018-10-16 14:41:30 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:41:30 [transport DEBUG] Remote version/idstring: SSH-2.0-nsssh2_5.0.0031 NetSarang Computer, Inc.
+2018-10-16 14:41:30 [transport INFO] Connected (version 2.0, client nsssh2_5.0.0031)
+2018-10-16 14:41:30 [transport DEBUG] kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:41:30 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:41:30 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:41:30 [transport DEBUG] Cipher agreed: aes128-cbc
+2018-10-16 14:41:30 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:41:30 [transport DEBUG] Compression agreed: none
+2018-10-16 14:41:30 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:41:30 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:41:30 [transport DEBUG] Auth request (type=none) service=ssh-connection, username=wangna
+2018-10-16 14:41:30 [transport INFO] Auth rejected (none).
+2018-10-16 14:41:30 [transport DEBUG] Auth request (type=password) service=ssh-connection, username=wangna
+2018-10-16 14:41:30 [interface INFO] Password auth <wangna> success
+2018-10-16 14:41:30 [transport INFO] Auth granted (password).
+2018-10-16 14:41:30 [interface INFO] Check channel request: session 0
+2018-10-16 14:41:30 [models INFO] New client <王娜 from 192.168.1.18:62702> join, total 2 now
+2018-10-16 14:41:30 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:41:30 [channel DEBUG] [chan 0] Max packet out: 16384 bytes
+2018-10-16 14:41:30 [transport DEBUG] Secsh channel 0 (session) opened.
+2018-10-16 14:41:30 [interface INFO] Check channel pty request: b'xterm' 189 42 0 0
+2018-10-16 14:41:30 [interface INFO] Check channel shell request: 0
+2018-10-16 14:41:30 [sshd INFO] Request type `session:pty`, dispatch to interactive mode
+2018-10-16 14:41:30 [interactive DEBUG] Get user 王娜 assets total: 3
+2018-10-16 14:41:34 [assets DEBUG] Get system user ops password: 1qaz*** key: None***
+2018-10-16 14:41:34 [proxy INFO] Connect to 192.168.1.43
+2018-10-16 14:41:34 [transport DEBUG] starting thread (client mode): 0xe935c400
+2018-10-16 14:41:34 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:41:34 [transport DEBUG] Remote version/idstring: SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
+2018-10-16 14:41:34 [transport INFO] Connected (version 2.0, client OpenSSH_6.7p1)
+2018-10-16 14:41:34 [transport DEBUG] kex algos:['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:41:34 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:41:34 [transport DEBUG] HostKey agreed: ssh-ed25519
+2018-10-16 14:41:34 [transport DEBUG] Cipher agreed: aes128-ctr
+2018-10-16 14:41:34 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:41:34 [transport DEBUG] Compression agreed: zlib@openssh.com
+2018-10-16 14:41:34 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:41:34 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:41:34 [transport DEBUG] Adding ssh-ed25519 host key for 192.168.1.43: b'6350b3d071819f5a985a516f86362f1f'
+2018-10-16 14:41:34 [transport DEBUG] userauth is OK
+2018-10-16 14:41:34 [transport INFO] Authentication (password) successful!
+2018-10-16 14:41:34 [transport DEBUG] Switching on outbound compression ...
+2018-10-16 14:41:34 [transport DEBUG] Switching on inbound compression ...
+2018-10-16 14:41:34 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:41:34 [channel DEBUG] [chan 0] Max packet out: 32768 bytes
+2018-10-16 14:41:34 [transport DEBUG] Secsh channel 0 opened.
+2018-10-16 14:41:34 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:41:34 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:41:34 [session INFO] Start bridge session: 00e8850d-00c6-4257-ad11-9e1c4884e898
+2018-10-16 14:41:35 [transport DEBUG] starting thread (server mode): 0xe930c5c0
+2018-10-16 14:41:35 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:41:35 [transport DEBUG] Remote version/idstring: SSH-2.0-nsssh2_5.0.0031 NetSarang Computer, Inc.
+2018-10-16 14:41:35 [transport INFO] Connected (version 2.0, client nsssh2_5.0.0031)
+2018-10-16 14:41:35 [transport DEBUG] kex algos:['ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour', 'aes192-cbc', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'aes256-cbc', 'rijndael128-cbc', 'rijndael192-cbc', 'rijndael256-cbc', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'rijndael-cbc@lysator.liu.se', 'arcfour128', 'arcfour256'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5', 'hmac-md5-96', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'none'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:41:35 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:41:35 [transport DEBUG] HostKey agreed: ssh-rsa
+2018-10-16 14:41:35 [transport DEBUG] Cipher agreed: aes128-cbc
+2018-10-16 14:41:35 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:41:35 [transport DEBUG] Compression agreed: none
+2018-10-16 14:41:36 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:41:38 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:41:38 [transport DEBUG] Auth request (type=none) service=ssh-connection, username=caiwei
+2018-10-16 14:41:38 [transport INFO] Auth rejected (none).
+2018-10-16 14:41:38 [transport DEBUG] Auth request (type=password) service=ssh-connection, username=caiwei
+2018-10-16 14:41:38 [interface INFO] Password auth <caiwei> success
+2018-10-16 14:41:38 [transport INFO] Auth granted (password).
+2018-10-16 14:41:38 [interface INFO] Check channel request: session 0
+2018-10-16 14:41:38 [models INFO] New client <蔡蔚 from 192.168.1.229:59790> join, total 3 now
+2018-10-16 14:41:38 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:41:38 [channel DEBUG] [chan 0] Max packet out: 16384 bytes
+2018-10-16 14:41:38 [transport DEBUG] Secsh channel 0 (session) opened.
+2018-10-16 14:41:38 [interface INFO] Check channel pty request: b'xterm' 128 29 0 0
+2018-10-16 14:41:38 [interface INFO] Check channel shell request: 0
+2018-10-16 14:41:38 [sshd INFO] Request type `session:pty`, dispatch to interactive mode
+2018-10-16 14:41:38 [interactive DEBUG] Get user 蔡蔚 assets total: 3
+2018-10-16 14:41:43 [assets DEBUG] Get system user ops password: 1qaz*** key: None***
+2018-10-16 14:41:43 [proxy INFO] Connect to 192.168.1.45
+2018-10-16 14:41:43 [transport DEBUG] starting thread (client mode): 0xe93faf28
+2018-10-16 14:41:43 [transport DEBUG] Local version/idstring: SSH-2.0-paramiko_2.4.1
+2018-10-16 14:41:43 [transport DEBUG] Remote version/idstring: SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
+2018-10-16 14:41:43 [transport INFO] Connected (version 2.0, client OpenSSH_6.7p1)
+2018-10-16 14:41:43 [transport DEBUG] kex algos:['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+2018-10-16 14:41:43 [transport DEBUG] Kex agreed: ecdh-sha2-nistp256
+2018-10-16 14:41:43 [transport DEBUG] HostKey agreed: ssh-ed25519
+2018-10-16 14:41:43 [transport DEBUG] Cipher agreed: aes128-ctr
+2018-10-16 14:41:43 [transport DEBUG] MAC agreed: hmac-sha2-256
+2018-10-16 14:41:43 [transport DEBUG] Compression agreed: zlib@openssh.com
+2018-10-16 14:41:43 [transport DEBUG] kex engine KexNistp256 specified hash_algo <built-in function openssl_sha256>
+2018-10-16 14:41:43 [transport DEBUG] Switch to new keys ...
+2018-10-16 14:41:43 [transport DEBUG] Adding ssh-ed25519 host key for 192.168.1.45: b'87af9d37f8f515b885e44195963e48dd'
+2018-10-16 14:41:43 [transport DEBUG] userauth is OK
+2018-10-16 14:41:43 [transport INFO] Authentication (password) successful!
+2018-10-16 14:41:43 [transport DEBUG] Switching on outbound compression ...
+2018-10-16 14:41:43 [transport DEBUG] Switching on inbound compression ...
+2018-10-16 14:41:43 [channel DEBUG] [chan 0] Max packet in: 32768 bytes
+2018-10-16 14:41:43 [channel DEBUG] [chan 0] Max packet out: 32768 bytes
+2018-10-16 14:41:43 [transport DEBUG] Secsh channel 0 opened.
+2018-10-16 14:41:43 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:41:43 [channel DEBUG] [chan 0] Sesch channel 0 request ok
+2018-10-16 14:41:43 [session INFO] Start bridge session: cf34b2ce-9a77-468d-8338-889541b7d546
+2018-10-16 14:41:52 [recorder DEBUG] Send 1 commands to server
+2018-10-16 14:42:24 [recorder DEBUG] Send 1 commands to server
+2018-10-16 14:42:33 [transport DEBUG] Sending global request "keepalive@lag.net"
+2018-10-16 14:46:49 [transport DEBUG] Sending global request "keepalive@lag.net"
+2018-10-16 14:47:19 [transport DEBUG] Sending global request "keepalive@lag.net"
+2018-10-16 14:47:33 [transport DEBUG] Sending global request "keepalive@lag.net"

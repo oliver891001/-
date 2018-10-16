@@ -1,0 +1,11 @@
+Task create new adhoc: 更新资产硬件信息
+2018-10-16 14:28:41 Start task: 更新资产硬件信息
+
+Get matched hosts: [154server]
+
+PLAY [更新资产硬件信息] 
+
+TASK [setup] 
+ok: [154server]
+
+2018-10-16 14:28:43 Task finished

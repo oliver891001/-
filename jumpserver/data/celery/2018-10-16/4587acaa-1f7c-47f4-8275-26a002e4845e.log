@@ -1,0 +1,11 @@
+Task create new adhoc: 测试系统用户可连接性: 内网ops用户(ops)
+2018-10-16 14:22:05 Start task: 测试系统用户可连接性: 内网ops用户(ops)
+
+Get matched hosts: [192.168.1.43]
+
+PLAY [测试系统用户可连接性: 内网ops用户(ops)] 
+
+TASK [ping] 
+ok: [192.168.1.43]
+
+2018-10-16 14:22:06 Task finished
